@@ -10,11 +10,16 @@ namespace ConsoleApp1
     {
         public static string DisplayMessage()
         {
-            return "Hellow World";
+            return "Hello World";
+        }
+        public static string DisplayName()
+        {
+            return "Jude Kc";
         }
         static void Main(string[] args)
         {
             Console.WriteLine(DisplayMessage());
+            Console.WriteLine(DisplayName());
         }
     }
 }
